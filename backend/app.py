@@ -16,5 +16,5 @@ CORS(app)  # Enable CORS for all routes so the frontend can fetch from a differe
 register_routes(app)
 
 if __name__ == "__main__":
-    print("🚀 DevFlow API server starting on http://localhost:5000")
+    print("DevFlow API server starting on http://localhost:5000")
     app.run(debug=True, port=5000)
